@@ -1,5 +1,5 @@
 {
-  "name": "ilab/events",
+  "name": "ilab/illuminate-events",
   "description": "The Illuminate Events package.",
   "license": "MIT",
   "homepage": "https://laravel.com",
@@ -15,9 +15,9 @@
   ],
   "require": {
     "php": ">=7.0",
-    "ilab/container": "5.6.*",
-    "ilab/contracts": "5.6.*",
-    "ilab/support": "5.6.*"
+    "ilab/illuminate-container": "5.6.*",
+    "ilab/illuminate-contracts": "5.6.*",
+    "ilab/illuminate-support": "5.6.*"
   },
   "autoload": {
     "psr-4": {
@@ -36,15 +36,15 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/interfacelab/ilab-contracts"
+      "url": "https://github.com/interfacelab/ilab-illuminate-contracts"
     },
     {
       "type": "vcs",
-      "url": "https://github.com/interfacelab/ilab-container"
+      "url": "https://github.com/interfacelab/ilab-illuminate-container"
     },
     {
       "type": "vcs",
-      "url": "https://github.com/interfacelab/ilab-support"
+      "url": "https://github.com/interfacelab/ilab-illuminate-support"
     }
   ]
 }
